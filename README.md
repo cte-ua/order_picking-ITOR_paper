@@ -20,6 +20,28 @@ The name of the file corresponds to the name of the model in the paper.
    -HYB.py
    ...
 
+Experiment results folder: contains the results of all runs. For each run, the information is provided using the following structure:
+    exp_main.txt
+   - Instance ID: 
+   - Solver: 
+   - Solve status: 
+   - Objective: 
+   - Gap: 
+   - BestBound: 
+   - NumOfNodes: 
+   - SolveTime: 
+   - TimeBestSol: 
+   - TimeInstance: 
+   - TimeSolve: 
+   - TimeTotal: 
+   - End:
+     
+   exp_stats.txt
+   - Instance ID:
+   - NumOfVariables:
+   - NumOfConstraints: 
+
+
 
 
  
